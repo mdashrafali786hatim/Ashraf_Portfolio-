@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Ashraf Ali - Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('');
+            background-size: cover;
+            background-attachment: fixed;
+            transition: background 0.5s ease-in-out;
+        }
+
+        header.jumbotron {
+            background-color: rgba(248, 249, 250, 0.9);
+            margin-bottom: 0;
+            transition: background-color 0.5s ease-in-out;
+        }
+
+        section {
+            padding: 60px 0;
+            transition: padding 0.5s ease-in-out;
+        }
+
+        footer {
+            background-color: rgba(248, 249, 250, 0.9);
+            transition: background-color 0.5s ease-in-out;
+        }
+
+        h2 {
+            color: #007bff;
+            font-weight: bold;
+            transition: color 0.5s ease-in-out;
+        }
+
+        .social-icons a {
+            color: #333;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: background 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                padding: 30px 0;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .social-icons a {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">MD Ashraf Ali</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#internships">Internships</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Hello, I'm MD Ashraf Ali</h1>
+        <p class="lead">A Web Developer with expertise in HTML, CSS, JavaScript, and more.</p>
+        <p>Hyderabad, Telangana, 500008</p>
+        <p>Contacts: +918106862990 | mdashrafali786hatim@gmail.com</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mdashrafali786hatim" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/mdashrafali786hatim" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://whatsapp.com/channel/0029VaKAuchCMY0BxCwk5z2l" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.youtube.com/channel/UCpxMPrCTG7GHPJu2xWqWgMw" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    </header>
+
+    <section id="about" class="container text-center">
+        <h2>About Me</h2>
+        <p>I'm a skilled Software Engineer in creating responsive and visually appealing websites. I have a strong background in full-stack development with a focus on the MERN stack. I enjoy working on challenging projects and continuously improving my skills.</p>
+    </section>
+
+    <section id="education" class="container">
+        <h2 class="text-center">Education</h2>
+        <ul class="list-unstyled">
+            <li><strong>NxtWave Disruptive Technologies Private Limited, Hyderabad</strong><br>Industry Ready Certification in Full-stack Development (MERN Stack), Dec 2022 - Ongoing</li>
+            <li><strong>Sri Satya Sai University of Technology and Medical Sciences, Bhopal</strong><br>MCA in Computer Science Engineering (7.5 CGPA), 2022 - 2024</li>
+            <li><strong>Jawaharlal Nehru Technological University, Hyderabad</strong><br>B. Tech in Civil Engineering (7.37 CGPA), 2017 - 2022</li>
+            <li><strong>Maulana Azad National Urdu University, Hyderabad</strong><br>Diploma in Civil Engineering (76%), 2014 - 2017</li>
+            <li><strong>Bihar School Examination Board, Patna</strong><br>Matriculation (68%), 2013 - 2014</li>
+        </ul>
+    </section>
+
+    <section id="skills" class="container text-center">
+        <h2>Skills</h2>
+        <p>HTML, CSS, JavaScript, Python, SQL, Bootstrap, React.js, Node.js, Express.js, REST APIs, PowerShell, Linux, SDLC, RDBMS, OOPS, Git, VS Code, MS Office, Debugging, Communication, Problem-Solving, Teamwork and Collaboration, Attention to Details, Adaptability</p>
+    </section>
+
+    <section id="internships" class="container">
+        <h2 class="text-center">Internships</h2>
+        <ul class="list-unstyled">
+            <li>
+                <strong>CodTech IT Solutions</strong> (3 Months Virtual Internship in Full Stack Development), May 2024 - Ongoing
+                <ul>
+                    <li>Front-end Development: Building user-friendly interfaces with HTML, CSS, and JavaScript.</li>
+                    <li>Back-end Development: Creating server-side logic with Node.js and Python, designing and implementing database schemas using SQL/NoSQL.</li>
+                    <li>Full-Stack Integration: Integrating front-end and back-end components, implementing authentication and authorization.</li>
+                    <li>Version Control and Collaboration: Using Git for version control, participating in code reviews, collaborating with cross-functional teams.</li>
+                    <li>Testing and Debugging: Writing unit and end-to-end tests, debugging, and optimizing performance.</li>
+                    <li>Continuous Learning: Staying updated on industry trends, seeking opportunities for skills enhancement.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Prodigy InfoTech</strong> (1 Month Virtual Internship in Software Development), Feb 2024 - Feb 2024
+                <ul>
+                    <li>Learnt Python, wrote, tested, and maintained code according to design specifications.</li>
+                    <li>Understanding fundamental SQL commands, defining, and manipulating database tables.</li>
+                    <li>Utilized version control systems for code management.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>CodSoft Code. Create. Succeed.</strong> (4 Weeks Virtual Internship in Web Development), Dec 2023 - Jan 2024
+                <ul>
+                    <li>Wrote clean and efficient HTML and CSS code to create web page structure and style.</li>
+                    <li>Incorporated interactive elements using JavaScript.</li>
+                    <li>Leveraged Bootstrap to create flexible and responsive layouts.</li>
+                    <li>Used version control systems to manage code changes.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Contact Management System</h3>
+                <p>Developed a program that allows users to store and manage contact information with options to add, view, edit, and delete contacts. Used Python for OOP and UI management, SQLite for database management, and file I/O operations for persistent storage.</p>
+                <p><strong>Technologies used:</strong> HTML, CSS, Bootstrap, JavaScript, Python, SQLite, Git</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Portfolio Website</h3>
+                <p>Built a portfolio website to showcase skills, projects, and experience. Employed responsive design principles for optimal viewing across devices and used Git for version control in project management.</p>
+                <p><strong>Technologies used:</strong> HTML, CSS, Bootstrap, JavaScript, Git</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container text-center">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 MD Ashraf Ali. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Add any custom JavaScript here
+    </script>
+</body>
+
+</html>
